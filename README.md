@@ -29,3 +29,7 @@ add folowing to config/environments/development.rb and config/environments/produ
  ENV['S3_SECRET']='your-secret-key'
  ENV['S3_BUCKET']='your-bucket-name'
 ```
+
+
+## 
+author: Ionut Alexandru Anca
