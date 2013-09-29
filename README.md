@@ -1,4 +1,4 @@
-refinerycms_carrierwave
+Refinerycms Carrierwave
 =======================
 
 This gem replaces dragonfly gem with carrierwave gem in RefineryCMS for better performance.
@@ -9,19 +9,23 @@ By using this gem the images and files uploaded in the backend of RefineryCMS wi
 
 RefineryCMS 2.0 or later
 
-## Install
+## Installation
+
+add the following line to the bottom of your Gemfile :
 
 ```ruby
-	gem 'refinerycms_carrierwave', :git => 'git@github.com:ionut998/refinerycms_carrierwave.git'
+ gem 'refinerycms_carrierwave', :git => 'git@github.com:ionut998/refinerycms_carrierwave.git'
 ```
+
+run :
 
 ``bundle install``
 
-add folowing to config/development.rb, config/production.rb
+add folowing to config/environments/development.rb and config/environments/production.rb: 
 
 ```ruby
-	ENV['PROVIDER']='AWS'
-	ENV['S3_KEY']='your-key'
-	ENV['S3_SECRET']='your-secret-key'
-	ENV['S3_BUCKET']='your-bucket-name'
+ ENV['PROVIDER']='AWS'
+ ENV['S3_KEY']='your-key'
+ ENV['S3_SECRET']='your-secret-key'
+ ENV['S3_BUCKET']='your-bucket-name'
 ```
