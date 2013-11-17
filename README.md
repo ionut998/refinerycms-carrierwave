@@ -14,7 +14,7 @@ RefineryCMS 2.0 or later
 add the following line to the bottom of your Gemfile :
 
 ```ruby
- gem 'refinerycms_carrierwave', :git => 'git@github.com:ionut998/refinerycms_carrierwave.git'
+ gem 'refinerycms-carrierwave', :git => 'git@github.com:ionut998/refinerycms-carrierwave.git'
 ```
 
 run :
